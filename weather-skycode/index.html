@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Weather SkyCode</title>
+  </head>
+    <body>
+      <main class="main-content">
+        <div class="card">  
+          <div class="search">
+            <input type="text" placeholder="enter city name" spellcheck="false">
+            <button><img src="img/search.png" alt="search">
+          </div>
+          <div class="wheater">
+            <div class="weather__info">
+              <h1 class="weather__info--temp" id="temp">23°C</h1>
+              <h2 class="weather__info--name"  id="nameCity">caracas</h2>
+            </div>
+            <img class="weather__icon" alt="icon weather" id="icon"/>
+            <p id="description"></p>
+          </div>
+          <div class="details" >
+            <div class="details__latitude">
+              <img class="details__img" src="img/icons8-latitud-100.png" alt="lat">
+              <p id="latitude"></p>
+              <p>Latitude</p>
+            </div>
+            <div class="details__longitude">
+              <img class="details__img" src="img/icons8-longitud-100.png" alt="lon" >
+              <p id="longitude"></p>
+              <p>Longitude</p>
+            </div>
+            <div class="details__humidity">
+              <img  class="details__img" src="img/icons8-humedad-100.png" alt="humidity">
+              <p id="humidity"></p>
+              <p>Humidity</p>
+            </div>
+            <div class="details__wind">
+              <img class="details__img" src="img/icons8-viento-100 (1).png" alt="wind">
+            <p id="wind"></p>
+            <p>Wind speed</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </main>
+      <script src="./js/wheater.js"></script>
+    </body>
+</html>
